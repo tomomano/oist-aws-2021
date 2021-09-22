@@ -96,23 +96,51 @@ Available at Amazon store :)
     
 \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{AWS account}
-\begin{itemize}
-    \item I sent each student an email containing the account information.
-    \item When you open the JSON file, it would look like this:
-    \begin{semiverbatim}
-    \{
-        "UserName": "student-XXX",
-        "Password": "ABCDEF",
-        "AccessKeyId": "XXXXXXXXX",
-        "SecretAccessKey": "YYYYYYYY",
-        "Sign in link": "https://ZZZZZZZ"
-    \}
-    \end{semiverbatim}
-    \item To log in, use "Sign in link" and then enter "UserName" and "Password".
-    \item Use "AccessKeyId" and "SecretAccessKey" to use AWS API (see \url{https://tomomano.github.io/learn-aws-by-coding/en/#aws_cli_install})
+% \begin{frame}[fragile]
+% \frametitle{AWS account}
+% \begin{itemize}
+%     \item I sent each student an email containing the account information.
+%     \item When you open the JSON file, it would look like this:
+%     \begin{semiverbatim}
+%     \{
+%         "UserName": "student-XXX",
+%         "Password": "ABCDEF",
+%         "AccessKeyId": "XXXXXXXXX",
+%         "SecretAccessKey": "YYYYYYYY",
+%         "Sign in link": "https://ZZZZZZZ"
+%     \}
+%     \end{semiverbatim}
+%     \item To log in, use "Sign in link" and then enter "UserName" and "Password".
+%     \item Use "AccessKeyId" and "SecretAccessKey" to use AWS API (see \url{https://tomomano.github.io/learn-aws-by-coding/en/#aws_cli_install})
 
+% \end{itemize}
+
+% \end{frame}
+
+\begin{frame}{AWS Account}
+
+\begin{itemize}
+    \item I sent each student an invitation to AWS
+    \item With this invitation, your account will be created under the "organization".
+    Essentially, all the billing will go to the organization, not to you!
+    \item \textbf{Once the invitation is sent to you, go to the login window, type your OIST email as accoutn name, and click "reset password".}
+    \item If you already have an AWS account created with OIST email, you can continue using that account.
+    However, all cloud cost will be billed to the organization, not to you.
+    If your account does anything other than the course exercise, please let me know an alternative email to create a new account.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Environment setup}
+
+Read the appendix of the lecture material (\url{https://tomomano.github.io/learn-aws-by-coding/en/#sec:appendix_settingup}) and set up environment in your local machine.
+
+In particular, do the following today:
+
+\begin{itemize}
+    \item Install AWS CLI
+    \item Install AWS CDK
+    \item Issue AWS access key and configure command line
 \end{itemize}
 
 \end{frame}
