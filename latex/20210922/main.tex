@@ -8,6 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[unicode,11pt]{beamer}
 \usetheme{Madrid}
+\usepackage{listings}
 \definecolor{links}{HTML}{2A1B81}
 \hypersetup{colorlinks,linkcolor=,urlcolor=links}
 
@@ -47,6 +48,7 @@
     \item The source code for the exercises is at
     \url{https://github.com/tomomano/learn-aws-by-coding}
     \item Supporting lecture slides are posted at
+    \url{https://github.com/tomomano/oist-aws-2021}
 \end{itemize}
 \end{frame}
 
@@ -76,6 +78,42 @@ I published a book (in Japanese)!
 \vspace{10pt}
 
 Available at Amazon store :)
+
+\end{frame}
+
+\begin{frame}{AWS Educate Program}
+
+\begin{itemize}
+    \item AWS Educate program generously gave us \$500 credit to use on AWS
+    \item The credit was deposited on my personal AWS account.
+    I created a child account for each student (see next slide).
+    For the course exercises, please use this account, not your personal AWS account.
+    \item We are sharing the \$500 credit with the entire class.
+    Please do not overuse it, otherwise we run out of the credit!
+    If I observe an individual using too much AWS credit, I will need to terminate that account.
+    \item Accounts issued for you are valid until the end of this course (10/01).
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{AWS account}
+\begin{itemize}
+    \item I sent each student an email containing the account information.
+    \item When you open the JSON file, it would look like this:
+    \begin{semiverbatim}
+    \{
+        "UserName": "student-XXX",
+        "Password": "ABCDEF",
+        "AccessKeyId": "XXXXXXXXX",
+        "SecretAccessKey": "YYYYYYYY",
+        "Sign in link": "https://ZZZZZZZ"
+    \}
+    \end{semiverbatim}
+    \item To log in, use "Sign in link" and then enter "UserName" and "Password".
+    \item Use "AccessKeyId" and "SecretAccessKey" to use AWS API (see \url{https://tomomano.github.io/learn-aws-by-coding/en/#aws_cli_install})
+
+\end{itemize}
 
 \end{frame}
 
