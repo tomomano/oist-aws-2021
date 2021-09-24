@@ -11,3 +11,4 @@ Lecturer: Tomoyuki Mano
 ## Slides
 
 - [09/22 - Lecture 1: AWS Basics](slides/20210922.pdf)
+- [09/24 - Lecture 2: Running Deep Learning Applications in AWS](slides/20210924.pdf)
